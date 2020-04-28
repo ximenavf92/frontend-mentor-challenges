@@ -70,6 +70,13 @@ h1 span {
     gap: 10px 0;
 }
 
+.service-card:hover {
+    transform-origin: center;
+    transform: scale(1.025);
+    box-shadow: 0 8px 20px rgba(50, 50, 200, .15);
+    transition: ease-in-out .35s;
+}
+
 .service-card--text {
     grid-area: 1 / 1 / 2 / 3;
 }
@@ -109,9 +116,38 @@ h1 span {
     border-color: var(--color4);
 }
 
+@media (min-width: 1200px) {
+    .service-card--grid {
+        margin: 3em 10% 5em;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 0 5px;
+    }
 
+    .service-card {
+        margin: 1em;
+    }
 
-@media (min-width: 1440px) {}
+    .intro-description {
+        width: 40%;
+    }
+
+    .service-card--supervisor {
+        grid-area: 2 / 1 / 4 / 2;
+    }
+
+    .service-card--teambuilder {
+        grid-area: 1 / 2 / 3 / 3;
+    }
+
+    .service-card--karma {
+        grid-area: 3 / 2 / 5 / 3;
+    }
+
+    .service-card--calculator {
+        grid-area: 2 / 3 / 4 / 4;
+    }
+}
 
 /* === FrontendMentor.io Attribution === */
 footer {
@@ -130,5 +166,5 @@ footer {
 }
 
 .attribution a {
-    color: hsl(189, 50%, 61%);
+    color: hsl(189, 100%, 62%);
 }
