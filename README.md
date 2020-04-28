@@ -6,7 +6,7 @@ I need to practice HTML, CSS & JS as I continue learning but I keep getting dist
 
 1. [Four Card Feature Section](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK)
     - ***FM Description:*** A nice layout-based challenge for beginners. This will test anyone who is new to multi-column and responsive layouts.
-    - [Repo](https://github.com/ximenavf92/frontend-mentor-challenges/four-card-feature/)
+    - [Repo](https://github.com/ximenavf92/frontend-mentor-challenges/tree/master/four-card-feature/)
     - [Live Demo](#) – *Coming Soon*
 1. [Base Apparel Coming Soon Page](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0)
     - ***FM Description:*** This layout looks simple enough, but there are some interesting details to it that will test your CSS skills. You'll also get to practice basic form validation.
