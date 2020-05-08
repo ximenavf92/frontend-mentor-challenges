@@ -15,7 +15,7 @@ body {
     margin: 0;
     width: 100%;
     overflow-x: hidden;
-    background: var(--bgColor);
+    background-color: var(--bgColor);
     font-family: var(--mainFont);
     color: var(--textColor);
 }
