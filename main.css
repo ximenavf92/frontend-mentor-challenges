@@ -39,9 +39,10 @@ body {
 }
 
 header {
-    margin: 4rem 4rem 8rem;
+    margin: 2rem 4rem 8rem;
     display: grid;
     grid-gap: 50px 100px;
+    justify-content: center;
 }
 
 main {
@@ -63,11 +64,11 @@ ul li {
         justify-content: center;
         align-content: center;
         align-items: center;
-        margin: 5rem 8rem 8rem;
+        margin: 5rem 10rem 5rem;
     }
 
     main {
-        margin: 5rem 8rem 8rem;
+        margin: 5rem 10rem 8rem;
     }
 }
 
@@ -250,6 +251,12 @@ p {
     padding: 0 .5em 0 .25em;
 }
 
+@media (max-width: 600px) {
+    .social-icons li {
+        padding: 0 0 0 .2em;
+    }
+}
+
 .social-icons li:hover,
 .social-icons li a:focus {
     outline: none;
@@ -272,10 +279,11 @@ p {
 
 /* === Challenges === */
 .challenge-cards--grid {
-    margin: 3rem auto 5rem;
+    margin: 2rem auto 5rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 50px 30px;
+    justify-content: center;
 }
 
 /* Challenge Card */
@@ -287,6 +295,7 @@ p {
     box-shadow: 1px 1px 25px 1px rgba(0,0,0,.15);
     overflow: hidden;
     max-width: 500px;
+    justify-content: center;
 }
 
 .challenge-card--screenshot {
@@ -296,6 +305,12 @@ p {
 
 .challenge-card--info {
     padding: .25rem 3rem 3rem;
+}
+
+@media (max-width: 600px) {
+    .challenge-card--info {
+        padding: .25rem 1.5rem 2rem;
+    }
 }
 
 .challenge-card--description {
@@ -360,6 +375,13 @@ p {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     justify-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .challenge-card--buttons .button {
+        width: 80%;
+    }
 }
 
 .challenge-card--buttons .button {
@@ -375,6 +397,7 @@ p {
     box-shadow: none;
     display: grid;
     grid-template-rows: 1fr;
+    justify-content: center;
 }
 
 .challenge-card .challenge-card--future {
