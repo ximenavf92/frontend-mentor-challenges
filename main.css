@@ -68,7 +68,7 @@ ul li {
     }
 
     main {
-        margin: 5rem 10rem 8rem;
+        margin: 8rem 10rem 8rem;
     }
 }
 
@@ -83,7 +83,7 @@ h1 {
 h2 {
     font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (1920 - 320)));
     line-height: 1.2em;
-    margin-bottom: .25em;
+    margin-bottom: 1.3em;
     color: var(--accentColor);
     text-align: center;
 }
@@ -136,7 +136,7 @@ p {
 .profile-card {
     display: grid;
     grid-gap: 10px 30px;
-    align-content: start;
+    align-content: center;
     justify-content: center;
     border: solid 5px rgba(0,0,0,.1);
     border-radius: 2rem;
@@ -162,6 +162,7 @@ p {
 
 .profile-info {
     grid-column: 3 / 7;
+    align-self: center;
 }
 
 @media (max-width: 600px) {
@@ -376,6 +377,10 @@ p {
     grid-gap: 10px;
     justify-items: center;
     justify-content: center;
+}
+
+.challenge-card--buttons :first-child .button {
+    background: rgba(0,0,0,.4);
 }
 
 @media (max-width: 600px) {

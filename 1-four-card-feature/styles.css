@@ -168,3 +168,22 @@ footer {
 .attribution a {
     color: hsl(189, 100%, 62%);
 }
+
+.attribution .footer-link-home {
+    display: inline-block;
+    background-color: hsl(212, 86%, 64%);
+    width: max-content;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: .25em;
+    text-align: center;
+    text-decoration: none;
+    padding: .25em 1em;
+    margin-bottom: .5em;
+}
+
+.attribution .footer-link-home:hover {
+    color: hsl(228, 45%, 44%);
+    background-color: hsl(34, 97%, 64%);
+    transition: ease-in-out .5s;
+}
