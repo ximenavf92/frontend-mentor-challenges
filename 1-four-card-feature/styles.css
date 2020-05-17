@@ -41,7 +41,6 @@ h1 span {
 .intro-description {
     margin: 0 auto;
     width: 90%;
-    /* font-size: calc(17px + (19 - 17) * ((100vw - 320px) / (1920 - 320))); */
     font-size: 18px;
     line-height: 1.75em;
 }
@@ -50,9 +49,9 @@ h1 span {
     height: auto;
     display: grid;
     -webkit-box-pack: center;
-            justify-content: center;
+    justify-content: center;
     gap: 0;
-    margin: 3em 1em 5em;
+    margin: 3em auto 5em;
 }
 
 .service-card {
@@ -66,8 +65,8 @@ h1 span {
     border-top: 5px solid #000;
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: 2fr 1fr;   
-    gap: 10px 0;
+    grid-template-rows: 2fr 1fr; 
+    grid-gap: 40px 0;
 }
 
 .service-card:hover {
