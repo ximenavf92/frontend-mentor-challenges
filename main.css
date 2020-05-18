@@ -39,14 +39,14 @@ body {
 }
 
 header {
-    margin: 2rem 4rem 8rem;
+    margin: 2rem 3rem 8rem;
     display: grid;
     grid-gap: 50px 100px;
     justify-content: center;
 }
 
 main {
-    margin: 5rem 4rem 10rem;
+    margin: 5rem 3rem 10rem;
 }
 
 ul {
@@ -225,7 +225,6 @@ p {
 
 /* --- Headhsot --- */
 .headshot {
-    /* margin: 1em 1em 2em 1em; */
     justify-self: center;
 
 }
@@ -285,6 +284,7 @@ p {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 50px 30px;
     justify-content: center;
+    justify-items: center;
 }
 
 /* Challenge Card */
@@ -372,6 +372,7 @@ p {
 
 .challenge-card--buttons {
     margin-top: .5rem;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
@@ -397,6 +398,7 @@ p {
 
 /* Coming Soon Challenges */
 .coming-soon {
+    width: 100%;
     border-style: dotted;
     border-width: 5px;
     box-shadow: none;
